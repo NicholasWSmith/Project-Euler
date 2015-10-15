@@ -17,10 +17,10 @@
 public class ProjectEulerQ1 {
 
 	public static void main(String[] args) {
-		multiplesOfThreesAndFives();
+		System.out.print(multiplesOfThreesAndFives());
 	}
 	
-	public static void multiplesOfThreesAndFives(){
+	public static int multiplesOfThreesAndFives(){
 		
 		int total = 0;
 		for (int i = 0; i < 1000; i++){
@@ -30,5 +30,7 @@ public class ProjectEulerQ1 {
 				total += i;
 			}
 		}	
+		
+		return total;
 	}
 }

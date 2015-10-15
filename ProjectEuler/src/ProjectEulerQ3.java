@@ -13,7 +13,7 @@
  * @author Nicholas
  *
  */
-import java.util.*;	
+	
 		
 public class ProjectEulerQ3 {
 
