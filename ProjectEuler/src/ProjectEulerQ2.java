@@ -30,6 +30,8 @@ public class ProjectEulerQ2 {
 			array[i] = array[i-1] + array[i-2];
 			System.out.println(array[i]);
 		}	
+		
+		
 		for (int l = 0; l < array.length; l++){
 			if (array[l]%2 == 0){
 				total += array[l];
